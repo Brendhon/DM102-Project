@@ -5,6 +5,7 @@ import org.inatel.Player.Player;
 import org.inatel.Tournament.Tournament;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Team {
     private String name;
@@ -57,6 +58,13 @@ public class Team {
     public void addPlayer(Player player) {
         players.add(player);
         player.setTeam(this);
+    }
+
+    //Method to add all players to the team
+    public void addAllPlayers(List<Player> players) {
+        for (Player player : players) {
+            addPlayer(player);
+        }
     }
 
     // Method to remove a player from the team
