@@ -1,4 +1,4 @@
-# Espots Management System
+# Esports Management System
 
 Aplicação utilizada como trabalho final da disciplina DM102 (Programação OO Java e C#) na **Pós em Dispositivos Móveis e Computação em Nuvem** pelo **[INATEL](https://inatel.br/home/)**.
 
